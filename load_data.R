@@ -44,7 +44,7 @@ data <- read.table(data_file, header = TRUE,
                    skip = skips,
                    nrows = reads)
 
-# Recover column classes
+# Recover column names
 
 colnames(data) <- column_names
 
